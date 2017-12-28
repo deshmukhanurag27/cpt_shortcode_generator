@@ -1,0 +1,50 @@
+.cpts_list .cpts_indi_list {
+    margin-bottom: 2.5vw;
+}
+.cpts_list .cpts_img {
+    margin-bottom: 15px;
+}
+.cpts_list .cpts_text {
+    letter-spacing: -0.007em;
+    line-height: 1.19vw;
+    font-size: 0.83vw;
+}
+.cpts_list .cpts_text a {
+    letter-spacing: -0.007em;
+    line-height: 1.19vw;
+    font-size: 0.83vw;
+    font-weight: 600;
+    color: #4793e5;
+    position: relative;
+}
+.cpts_list .cpts_text h2 {
+    margin: 0px;
+    color: #231f20;
+    line-height: 1.43vw;
+    margin-bottom: 0.42vw;
+    font-size: 1.67vw;
+    font-family: 'ApercuRegular';
+}
+.cpts_list .cpts_text p {
+    margin: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -0.007em;
+    line-height: 1.25vw;
+    font-size: 0.95vw;
+    margin-bottom: 0.60vw;
+}
+.cpts_list .cpts_text a.cpts-link {
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.cpts_list .cpts_text a {
+    text-decoration: none;
+}
+.cpts_list .cpts_indi_list {
+    margin-bottom: 2.5vw;
+}
+
+.cpts-pagination {text-align:right;position:relative;}
+.next.page-numbers, .prev.page-numbers {background:none!important;font-size:14px!important;box-shadow:none!important;float:none!important}
+.cpts-pagination .page-numbers {padding: 2px 0.75em;box-shadow:none!important;}
+.next.page-numbers:hover, .prev.page-numbers:hover {color:#000!important}

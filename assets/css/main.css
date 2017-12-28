@@ -1,0 +1,11 @@
+.show_results label {
+	font-weight: bold;
+    font-size: 14px;
+    color: #23282d;
+    margin-right: 120px;
+}
+.cpts-tooltip {
+	color: #b9b9b9;
+	margin-left: 15px;
+}
+.error-msg{border: 1px solid #ea2a2a;}
