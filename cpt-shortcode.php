@@ -33,11 +33,11 @@ if( is_admin() ){
 
 /* Functions */
 
-function load_scripts($hook) {
+function ad_cpts_load_scripts($hook) {
 	wp_enqueue_style( 'cpts_custom_css', AD_CPTS_PLUGIN_LINK. '/assets/css/main.css' );
 	wp_enqueue_script( 'cpts_custom_js', AD_CPTS_PLUGIN_LINK. '/assets/js/custom.js', array('jquery'), null, true );
 }
-add_action( 'admin_enqueue_scripts', 'load_scripts' );
+add_action( 'admin_enqueue_scripts', 'ad_cpts_load_scripts' );
 
 /* Enqueue Script */
 add_action( 'wp_enqueue_scripts', 'ad_cpts_front_end_scripts' );
